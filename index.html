@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandConnect | Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-icon">L</span>
+            LandConnect
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#properties">Available Lands</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">Enquire Now</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="eyebrow">FIND YOUR PERFECT PIECE OF LAND</span>
+
+            <h1>Your Land.<br>Your Future.</h1>
+
+            <p>
+                Discover properties, explore locations and find
+                the right land for your future.
+            </p>
+
+            <!-- Search UI: Data will come from the backend -->
+            <form class="search-box">
+                <div class="search-field">
+                    <label for="location">Location</label>
+                    <input type="text" id="location"
+                           placeholder="Enter location">
+                </div>
+
+                <div class="search-field">
+                    <label for="propertyType">Property Type</label>
+                    <select id="propertyType">
+                        <option value="">All Types</option>
+                    </select>
+                </div>
+
+                <div class="search-field">
+                    <label for="budget">Maximum Budget</label>
+                    <select id="budget">
+                        <option value="">Any Budget</option>
+                    </select>
+                </div>
+
+                <button type="button">Search Lands</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="highlights">
+        <div class="highlight-item">
+            <span class="highlight-icon">⌖</span>
+            <div>
+                <h3>Explore Locations</h3>
+                <p>Discover property locations.</p>
+            </div>
+        </div>
+
+        <div class="highlight-item">
+            <span class="highlight-icon">₹</span>
+            <div>
+                <h3>Compare Prices</h3>
+                <p>Explore property price information.</p>
+            </div>
+        </div>
+
+        <div class="highlight-item">
+            <span class="highlight-icon">✓</span>
+            <div>
+                <h3>Property Details</h3>
+                <p>Explore land features and facilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Section: Empty until connected to backend -->
+    <section class="properties section" id="properties">
+        <div class="section-heading">
+            <div>
+                <span class="section-label">EXPLORE PROPERTIES</span>
+                <h2>Available Lands</h2>
+                <p>Explore properties that match your requirements.</p>
+            </div>
+
+            <a href="#properties" class="view-link">View All →</a>
+        </div>
+
+        <div class="property-grid">
+            <!-- Property cards will be rendered from database data here. -->
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features section" id="about">
+        <div class="section-heading">
+            <div>
+                <span class="section-label">WHY LANDCONNECT</span>
+                <h2>A Simpler Way to Find Land</h2>
+                <p>Everything you need to explore property information.</p>
+            </div>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⌕</div>
+                <h3>Easy Discovery</h3>
+                <p>Explore properties based on your requirements.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">₹</div>
+                <h3>Price Information</h3>
+                <p>Review property prices and land area.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⌖</div>
+                <h3>Location Insights</h3>
+                <p>Explore property locations and surroundings.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">↗</div>
+                <h3>Easy Enquiries</h3>
+                <p>Connect with the responsible team.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Banner -->
+    <section class="contact-banner" id="contact">
+        <div>
+            <span class="eyebrow">START YOUR PROPERTY JOURNEY</span>
+            <h2>Looking for the right land?</h2>
+            <p>Explore properties and connect with our team.</p>
+        </div>
+
+        <a href="#contact" class="contact-button">Get in Touch →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">
+            <span class="logo-icon">L</span>
+            LandConnect
+        </a>
+
+        <p>Find the right land for your future.</p>
+
+    </footer>
+
+</body>
+</html>
