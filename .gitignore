@@ -1,0 +1,7 @@
+   target/
+   build/
+   .idea/
+   .vscode/
+   *.log
+   .env
+   application-local.properties
