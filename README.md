@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MannVeedu — Tamil Nadu Land Marketplace
 
 A responsive, map-led land marketplace with account registration/login, database-backed plot listings, saved plots, comparisons, and contact/site-visit requests. Frontend assets are served by Spring Boot from `src/main/resources/static`.
@@ -73,3 +74,7 @@ The seed listings and contact identities are fictional. Coordinates and map boun
 
 - `mvn test` runs the unit tests in `src/test/java` (validator, rate limiter, photo signature check).
 - `scripts/smoke_test.py` runs 30 end-to-end checks (accounts, listing review, spoofing attempts, the pre-booking hold flow, rate limiting) against a running instance and a scratch database. See the docstring for usage.
+=======
+# LandConnect
+Real Estate Web Application
+>>>>>>> 835139ddac2c477a43326429bf2c7750d3fe1c88
