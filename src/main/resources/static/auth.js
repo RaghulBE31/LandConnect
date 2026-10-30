@@ -171,7 +171,7 @@ async function persistentDashboard() {
     closeModal();
     toast('Signed out');
   };
-  $('#addPlotBtn')?.addEventListener('click', openPlotForm);
+  $('#addPlotBtn')?.addEventListener('click', () => openPlotForm());
 }
 
 async function uploadPhotos(plotId,files) {

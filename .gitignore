@@ -4,4 +4,7 @@
    .vscode/
    *.log
    .env
-   application-local.properties
+   application-local.propertiestarget/
+uploads/
+
+target/
